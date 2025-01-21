@@ -50,7 +50,7 @@ def show_about():
     tk.Label(about_window, text="Created by: Wada Tafesse", font=("Arial", 12)).pack()
     tk.Label(about_window, text="Date: January 21 2025", font=("Arial", 12)).pack()
 
-    img = tk.PhotoImage(file="me.png")
+    img = tk.PhotoImage(file="me.jng")
     tk.Label(about_window, image=img).pack(pady=10)
     about_window.mainloop()
 
